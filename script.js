@@ -4,7 +4,8 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-  
+  let ans = document.querySelectorAll('.price')
+	console.log(ans)
 };
 
 getSumBtn.addEventListener("click", getSum);
